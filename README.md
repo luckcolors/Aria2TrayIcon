@@ -1,4 +1,5 @@
-# Aria2TrayIcon
+# Aria2Tray
+
 Aria2TrayIcon as the repo name explains is a tool designed to add an tray icon on desktop platforms for easily running the aria2 deamon but it also does more!
 Push requests are welcome.
 
@@ -32,7 +33,7 @@ Note: If you end up using a path or special characters be sure to follow json's 
   This are the arguments to pass to aria2 usually you only want to pass the --config-path= 
     
   "iconFile": "icon.ico",
- Path to the icon file to use must be .ico on windows.(the icon files can be found in the repo. Those are from the original aria2 website's favicon.). 
+ Path to the icon file to use must be .ico on windows. (the icon files can be found in the repo. Those are from the original aria2 website's favicon and thus follow the original aria2 GNU GPL license.). 
   
   "aria2Token": "TOKEN",
   Aria2 json rpc token this is mandatory in order for the systray buttons work.
@@ -86,6 +87,7 @@ Port for the json rpc to listen on. This should be the same as "aria2RpcUrl"
 ```
 #### Libraries used
  
+- [aria2/aria2] (https://github.com/aria2/aria2) For the icons wich are licensed under their original license GNU GPL.
 - [getlanter/systray](https://github.com/getlantern/systray)
 It's the base of this program. Currntly i'm using my own fork [here](https://github.com/luckcolors/systray) as i'm wainting for the pactch i made to be merged.
 - [paked/configure](https://github.com/paked/configure) 
@@ -98,5 +100,6 @@ Web frameworks used for the web ui server.
 Me [luckcolors](https://github.com/luckcolors) 
 And [Stefanoz45](https://github.com/Stefanoz45)
 for general advice and help.
+And thanks to the fine folks on the irc for answering my questions: #go-nuts on freenode.net.
 
 ####License: MIT
