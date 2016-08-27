@@ -1,0 +1,14 @@
+{
+  "command": "./aria2c.exe",
+  "args": "--conf-path=aria2.conf",
+  "iconFile": "icon.ico",
+  "aria2Token": "token",
+  "aria2RpcUrl": "http://localhost:1338/jsonrpc",
+  "runHttpServer": true,
+  "httpDataFolder": "webui",
+  "httpServerHost": ":1337",
+  "osOpenHttp": true,
+  "osOpenHttpUrl": "http://localhost:1337",
+  "osOpenHttpUrlCommand": "cmd",
+  "osOpenHttpUrlCommandArgs": "/c start"
+}
