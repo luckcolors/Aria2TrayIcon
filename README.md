@@ -13,7 +13,7 @@ Push requests are welcome.
 
 #### Building
 1. Clone the repo ```git clone https://github.com/luckcolors/Aria2TrayIcon.git```
-2. Resolve the dependencies: ```go get github.com/luckcolors```
+2. Resolve the dependencies: ```go get github.com/luckcolors/Aria2TrayIcon```
 3. ```cd Aria2TrayIcon```
 4.  * Windows: Build with the command ```go build -ldflags -H=windowsgui Aria2TrayIcon``` this disables the console window from appearing.
       *OS X and Linux: as simple ```go build Aria2TrayIcon``` should do.
